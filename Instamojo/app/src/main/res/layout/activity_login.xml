@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.arvind.instamojo.Login"
+    android:background="#212121">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:layout_marginTop="20dp"
+        android:textColor="#ffff"/>
+
+    <EditText
+        android:padding="12dp"
+        android:background="@drawable/textborder"
+        android:hint="username"
+        android:id="@+id/uname"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:layout_marginTop="20dp"
+        android:textColor="#ffff"/>
+
+    <EditText
+        android:padding="12dp"
+        android:background="@drawable/textborder"
+        android:hint="password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/pword" />
+    <android.support.v7.widget.AppCompatButton
+
+        android:text="login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textColor="#ffff"
+        app:backgroundTint="@color/button"
+        android:layout_marginTop="55dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:height="50dp"
+        android:id="@+id/login" />
+
+    <android.support.v7.widget.AppCompatButton
+
+        android:text="sign up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="#ffff"
+        app:backgroundTint="@color/button"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:height="50dp"
+        android:id="@+id/signup" />
+
+
+</LinearLayout>
